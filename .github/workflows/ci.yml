@@ -20,5 +20,8 @@ jobs:
           git config --local user.name "sunsgneayo"
           git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git pull --rebase
+          rm -rf auto.txt
+          touch auto.txt
+          echo "xxx" | cat - auto.txt
           git commit --allow-empty -m "a commit a day keeps your girlfriend away"
           git push
