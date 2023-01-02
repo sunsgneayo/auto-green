@@ -23,5 +23,6 @@ jobs:
           rm -rf auto.txt
           touch auto.txt
           echo "xxx" | cat - auto.txt
+          git add .
           git commit --allow-empty -m "a commit a day keeps your girlfriend away"
           git push
