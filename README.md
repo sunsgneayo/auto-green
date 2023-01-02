@@ -1,6 +1,6 @@
 # auto-green
 
-[![Build Status](https://github.com/sunsgne/auto-green/workflows/ci/badge.svg?branch=master)](https://github.com/justjavac/auto-green/actions)
+[![Build Status](https://github.com/sunsgneayo/auto-green/workflows/ci/badge.svg?branch=master)](https://github.com/sunsgneayo/auto-green/actions)
 
 自动保持 GitHub 提交状态常绿。
 
@@ -46,4 +46,4 @@
 
 ## License
 
-[auto-green](https://github.com/justjavac/auto-green) is released under the MIT License. See the bundled [LICENSE](./LICENSE) file for details.
+[auto-green](https://github.com/sunsgneayo/auto-green) is released under the MIT License. See the bundled [LICENSE](./LICENSE) file for details.
